@@ -1,0 +1,46 @@
+# Node modules (both frontend & backend)
+node_modules/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build output (React build or Next.js out folder)
+build/
+dist/
+out/
+
+# Editor/IDE stuff
+.vscode/
+.idea/
+*.swp
+
+# Debug
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage & test
+coverage/
+*.lcov
+
+# Optional: if you use MongoDB locally with dump files
+dump/
+
+# Optional: if you use Firebase or service keys
+firebase-debug.log
+*.serviceAccountKey.json
